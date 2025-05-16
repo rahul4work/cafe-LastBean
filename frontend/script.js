@@ -130,3 +130,37 @@ function showToast() {
         toast.classList.add("hidden");
     }, 4000);
 }
+
+
+// Order model functionality
+const orderButton = document.getElementById("orderButton");
+const orderModal = document.getElementById("orderModal");
+const closeOrderBtn = document.getElementById("closeOrderModal");
+const orderForm = document.getElementById("orderForm");
+
+if (orderButton && orderModal && closeOrderBtn && orderForm) {
+    orderButton.addEventListener("click", () => {
+        orderModal.classList.remove("hidden");
+        orderModal.classList.add("flex");
+    });
+
+    closeOrderBtn.addEventListener("click", () => {
+        orderModal.classList.add("hidden");
+        orderModal.classList.remove("flex");
+    });
+
+    window.addEventListener("click", (e) => {
+        if (e.target === orderModal) {
+            orderModal.classList.add("hidden");
+            orderModal.classList.remove("flex");
+        }
+    });
+
+    orderForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        showToast();
+        this.reset();
+        orderModal.classList.add("hidden");
+        orderModal.classList.remove("flex");
+    });
+}

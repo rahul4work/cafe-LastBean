@@ -62,7 +62,7 @@
                     <p class="description">Welcome to Cafe LastBean, where every bean tells a story and every cup sparks
                         joy.</p>
                     <div class="buttons">
-                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" id="orderButton" class="button order-now">Order Now</a>
                         <a href="#contact" class="button contact-us">Contact Us</a>
                     </div>
                 </div>
@@ -366,6 +366,45 @@
         </div>
 
     </main>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="order-modal hidden">
+        <div class="order-modal-content">
+            <div id="closeOrderModal" class="close-order">&times;</div>
+            <h2>☕ Place Your Order</h2>
+            <form id="orderForm" class="order-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" id="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="coffeeType">Coffee Type</label>
+                    <select name="coffeeType" id="coffeeType" required>
+                        <option value="" disabled selected>Select Coffee Type</option>
+                        <option value="Espresso">Espresso</option>
+                        <option value="Cappuccino">Cappuccino</option>
+                        <option value="Latte">Latte</option>
+                        <option value="Americano">Americano</option>
+                        <option value="Mocha">Mocha</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" name="quantity" id="quantity" min="1" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="customization">Customization</label>
+                    <textarea name="customization" id="customization" rows="3"
+                        placeholder="e.g. Extra hot, oat milk..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Order</button>
+            </form>
+        </div>
+    </div>
 
 
     <!-- Toast notification to show form submitted succesfully -->

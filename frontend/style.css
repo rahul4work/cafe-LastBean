@@ -160,14 +160,14 @@ body.show-mobile-menu header::before {
 }
 
 .hero-section .hero-details .title {
-    font-size:55px;
+    font-size: 55px;
     color: rgb(81, 21, 0);
     font-family: 'Dancing Script', cursive;
 }
 
 .hero-section .hero-details .title2 {
     font-size: var(--font-size-xxl);
-    color:#ecaa82;
+    color: #ecaa82;
     font-family: "Miniver", sans-serif;
 }
 
@@ -600,6 +600,118 @@ body.show-mobile-menu header::before {
     color: #c72f00;
 }
 
+/* order model styling */
+#orderModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+#orderModal.flex {
+  display: flex;
+}
+
+#orderModal .order-modal-content {
+  background: #fff8f3;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#orderModal h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #5a2e0d;
+  text-align: center;
+}
+
+#closeOrderModal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#closeOrderModal:hover {
+  transform: scale(1.2);
+  color: #9e4f20;
+}
+
+.order-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.order-form label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: #5a2e0d;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: #fff;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+  border-color: #c56b35;
+  box-shadow: 0 0 0 2px rgba(197, 107, 53, 0.2);
+}
+
+.submit-btn {
+  margin-top: 0.5rem;
+  background-color: #c56b35;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #9e4f20;
+  transform: translateY(-2px);
+}
 
 /* Styling for the "Date" text */
 #effectiveDate {
@@ -736,12 +848,15 @@ body.show-mobile-menu header::before {
 
 /* Responsive media query code for max width 640px */
 @media screen and (max-width: 640px) {
-    html, body {
+
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-        background-color: var(--primary-color); /* or use the color you want */
+        background-color: var(--primary-color);
+        /* or use the color you want */
     }
 
     .hero-section .hero-details .title {
@@ -810,13 +925,13 @@ body.show-mobile-menu header::before {
     .modal-content h1 {
         font-size: 24px;
         margin-bottom: 16px;
-        text-align:start;
+        text-align: start;
     }
 
     .modal-content h2 {
         font-size: 18px;
         margin-top: 20px;
-        text-align:start;
+        text-align: start;
     }
 
     .modal-content p {
