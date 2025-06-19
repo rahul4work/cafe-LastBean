@@ -40,7 +40,5 @@ A beautiful and responsive frontend website for a coffee shop, built with HTML, 
 | ![Screenshot_20250619-114330 Brave](https://github.com/user-attachments/assets/9f249bdf-fe1a-4d8f-9665-4f104bb91d12) | ![Screenshot_20250619-114355 Brave](https://github.com/user-attachments/assets/c4129850-1128-41c5-b9bd-b54f47fc5278) | ![Screenshot_20250619-114403 Brave](https://github.com/user-attachments/assets/8776d71a-9189-48bd-8919-980c93dec879) | ![Screenshot_20250619-114420 Brave](https://github.com/user-attachments/assets/eed9c411-055a-4732-8983-72f37e06c7d1) |
 
 
->>>>>>> a9cdde0f4dbc26b545e216682b963ff41bd9e78e
-
 ## 🔗 Live Demo
 [Click here to view the site](https://cafe-last-bean.vercel.app/)
