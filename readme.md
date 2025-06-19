@@ -29,8 +29,7 @@ A beautiful and responsive frontend website for a coffee shop, built with HTML, 
 ![alt text](<Screenshot 2025-06-19 121643.png>)
 ![alt text](<Screenshot 2025-06-19 121700.png>)
 
-<<<<<<< HEAD
-=======
+
 ### Mobile View
 
 | | | | |
