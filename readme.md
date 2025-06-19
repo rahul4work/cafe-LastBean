@@ -19,15 +19,15 @@ A beautiful and responsive frontend website for a coffee shop, built with HTML, 
 ## 📷 Preview
 
 ### Desktop/Laptop View
-![alt text](<Screenshot 2025-06-19 121446.png>)
-![alt text](<Screenshot 2025-06-19 121502.png>)
-![alt text](<Screenshot 2025-06-19 121518.png>)
-![alt text](<Screenshot 2025-06-19 121533.png>)
-![alt text](<Screenshot 2025-06-19 121547.png>)
-![alt text](<Screenshot 2025-06-19 121600.png>)
-![alt text](<Screenshot 2025-06-19 121621.png>)
-![alt text](<Screenshot 2025-06-19 121643.png>)
-![alt text](<Screenshot 2025-06-19 121700.png>)
+![Screenshot 2025-06-19 121446](https://github.com/user-attachments/assets/ff237075-f9bf-420b-a3a1-6a5d7d26548a)
+![Screenshot 2025-06-19 121502](https://github.com/user-attachments/assets/a2adf95e-4d92-4222-a5c6-6c4572fc658e)
+![Screenshot 2025-06-19 121518](https://github.com/user-attachments/assets/fc11f50f-4cd9-4640-94c4-822a8924cc29)
+![Screenshot 2025-06-19 121533](https://github.com/user-attachments/assets/10f16627-d70d-4e7e-87ba-e00381d39e62)
+![Screenshot 2025-06-19 121547](https://github.com/user-attachments/assets/0dc075e1-5c89-4b37-a675-b2f8e2d0b912)
+![Screenshot 2025-06-19 121600](https://github.com/user-attachments/assets/643dcab9-04aa-4a1a-9b86-bcf039f6d85e)
+![Screenshot 2025-06-19 121621](https://github.com/user-attachments/assets/e947b497-ced9-471f-941b-1b978a3f9e48)
+![Screenshot 2025-06-19 121643](https://github.com/user-attachments/assets/6df18cf5-e5c0-4889-8bdf-49d166ae2e27)
+![Screenshot 2025-06-19 121700](https://github.com/user-attachments/assets/0c6bb349-1f1b-46c1-9342-f9e7f4c56a8a)
 
 
 ### Mobile View
