@@ -29,14 +29,6 @@ A beautiful and responsive frontend website for a coffee shop, built with HTML, 
 ![alt text](<Screenshot 2025-06-19 121643.png>)
 ![alt text](<Screenshot 2025-06-19 121700.png>)
 
-### Mobile View
-
-| | | | |
-|---|---|---|---|
-| d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114134.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114141.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114151.Brave~2.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114157.Brave.jpg |
-| d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114202.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114219.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114228.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114242.Brave.jpg |
-| d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114248.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114258.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114307.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114317.Brave.jpg |
-| d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114330.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114355.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114403.Brave.jpg | d:\StudyMaterial2\web_dev\internPe\Week11&12\cafeLastBean Screenshots\Screenshot_20250619-114420.Brave.jpg |
 
 ## 🔗 Live Demo
 [Click here to view the site](https://cafe-last-bean.vercel.app/)
