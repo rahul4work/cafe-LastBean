@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe LastBean</title>
+  <!-- Linking Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- Linking Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Header or Navbar -->
+  <header>
+    <Nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">☕ Caf<span>&#600;</span> LastᏰean</h2>
+      </a>
+
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimoinals" class="nav-link">Our Customers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </Nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title typewriter"> Welcome to Cafe LastBean</h2>
+          <h2 class="title2">Best Coffee in Town</h2>
+          <h3 class="subtitle">Start a fresh morning with our special coffee!</h3>
+          <p class="description">Welcome to Cafe LastBean, where every bean tells a story and every cup sparks
+            joy.</p>
+          <div class="buttons">
+            <a href="#" id="orderButton" class="button order-now">Order Now</a>
+            <a href="#contact" class="button contact-us">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="./assets/images/coffee-cup.png" alt="" class="hero-image">
+        </div>
+      </div>
+    </section>
+    <!-- <br/> -->
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="./assets/images/about-section-image.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">At Cafe LastBean in Vadodara, we bring you more than just coffee—we create an
+            experience. Every cup is brewed to perfection with premium beans, delivering rich flavors that
+            coffee lovers crave. From bold espressos to smooth lattes, our menu caters to every taste. With
+            a cozy atmosphere and freshly baked treats, it's the perfect spot to unwind, work, or connect
+            over great coffee</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <img src="./assets/images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of Steaming hot coffee to make you fredh and light.</p>
+          </li>
+          <li class="menu-item">
+            <img src="./assets/images/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+            <h3 class="name">Cold Beverages</h3>
+            <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+          </li>
+          <li class="menu-item">
+            <img src="./assets/images/refreshment.png" alt="Refreshment" class="menu-image">
+            <h3 class="name">Refreshment</h3>
+            <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+          </li>
+          <li class="menu-item">
+            <img src="./assets/images/special-combo.png" alt="Special Combos" class="menu-image">
+            <h3 class="name">Special Combos</h3>
+            <p class="text">Your favourite eating and drinking combinations.</p>
+          </li>
+          <li class="menu-item">
+            <img src="./assets/images/desserts.png" alt="Dessert" class="menu-image">
+            <h3 class="name">Dessert</h3>
+            <p class="text">Satiate your palate and take you on a culinary treat.</p>
+          </li>
+          <li class="menu-item">
+            <img src="./assets/images/burger-frenchfries.png" alt="Burger & French Fries" class="menu-image">
+            <h3 class="name">Burger & French Fries</h3>
+            <p class="text">Quick bites to satisfy your small size hunger.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimoinals">
+      <h2 class="section-title">Our Customers</h2>
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <img src="./assets/images/user-1.jpg" alt="User" class="user-image">
+                <h3 class="name">James Wilson</h3>
+                <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order
+                  again!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="./assets/images/user-2.jpg" alt="User" class="user-image">
+                <h3 class="name">Sarah Johnson</h3>
+                <i class="feedback">"Fantastic mocha flavor. French and aromatic. Quick shipping!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="./assets/images/user-3.jpg" alt="User" class="user-image">
+                <h3 class="name">Michael Brown</h3>
+                <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping
+                  tool!"</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="./assets/images/user-4.jpg" alt="User" class="user-image">
+                <h3 class="name">Emily Harris</h3>
+                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Higly
+                  recommend."</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="./assets/images/user-5.jpg" alt="User" class="user-image">
+                <h3 class="name">Anthony Thompson</h3>
+                <i class="feedback">"Best decaf I've tried! Smooth and flavourful. Arrived
+                  promptly."</i>
+              </li>
+            </ul>
+
+            <div class="swiper-slide-button swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section class="gallery-section" id="gallery">
+      <h2 class="section-title">Gallery</h2>
+      <div class="section-content">
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./assets/images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p>Shop No. 42, Third floor, Buisness Square, Atladara Vadodara 390012</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+            <p>info@cafelastbean.com</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <p>(+91) 9876543210</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Tuesday - Saturday: 8:45 AM - 4:55 PM</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Sunday: 10:00 AM - 3.35 PM</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Monday: Closed</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-globe"></i>
+            <p>www.cafelastbean.com</p>
+          </li>
+        </ul>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <!-- Web3Forms Access Key -->
+          <input type="hidden" name="access_key" value="82147f97-e558-44c9-90cf-fbcf2d0cca3d">
+
+          <!-- Required Fields -->
+          <input type="text" name="name" placeholder="Your name" class="form-input" required>
+          <input type="email" name="email" placeholder="Your email" class="form-input" required>
+          <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
+
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer-section">
+      <div class="section-content">
+        <a href="#">
+          <p class="copyright-text">&copy; 2025 Caf<span>&#600;</span> LastᏰean</p>
+        </a>
+
+        <div class="social-link-list">
+          <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <p class="policy-text">
+          <a href="#" class="policy-link" id="openPrivacy">Privacy policy & Refund policy</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div>
+          <h1>Privacy Policy - Cafe LastBean</h1>
+          <p><span id="effectiveDate"></span></p>
+
+          <h2>Information We Collect</h2>
+          <p>We may collect personal information including your name, email, phone number, billing address,
+            delivery address, order preferences, feedback, and any information you voluntarily provide
+            through
+            forms or communication.</p>
+
+          <h2>How We Use Your Information</h2>
+          <p>Your information helps us:</p>
+          <ul>
+            <li>Process and deliver your orders efficiently</li>
+            <li>Personalize your experience and recommend products</li>
+            <li>Improve our services and website functionality</li>
+          </ul>
+
+          <h2>Sharing Your Information</h2>
+          <p>We do not sell or rent your personal data. However, we may share it with trusted third-party
+            partners
+            (e.g., payment processors, delivery providers) solely for fulfilling our services. All partners
+            are
+            contractually obligated to protect your data.</p>
+
+          <h2>Your Rights</h2>
+          <p>You have the right to access, correct, or delete your personal data. To do so, contact us at the
+            email below. If you’ve subscribed to marketing emails, you can unsubscribe at any time via the
+            link
+            in the email.</p>
+
+          <h2>Children's Privacy</h2>
+          <p>Our services are not intended for children under 13. We do not knowingly collect personal
+            information
+            from children. If we become aware that such data has been collected, it will be deleted
+            promptly.
+          </p>
+
+          <h2>Changes to This Policy</h2>
+          <p>We may update this Privacy Policy from time to time. Changes will be posted here with an updated
+            effective date. Please review this page periodically to stay informed.</p>
+
+          <h2>Contact</h2>
+          <p>For questions, concerns, or data requests, please reach out to our support team:</p>
+          <p><strong>Email:</strong> support@cafelastbean.com</p>
+        </div>
+
+        <hr style="margin-top: 60px;">
+        <hr>
+
+        <div style="margin-top: 60px;">
+          <h1>Refund Policy - Cafe LastBean</h1>
+          <p><span id="effectiveDate"></span></p>
+
+          <h2>Eligibility for Refunds</h2>
+
+          <p>We strive to provide the best experience. However, if you're not satisfied, you may be eligible
+            for a
+            refund under the following conditions:</p>
+          <ul>
+            <li>The issue is reported within 24 hours of the order time.</li>
+            <li>The item delivered is incorrect, spoiled, or not as described.</li>
+            <li>You provide proof (photos or order details) of the issue.</li>
+          </ul>
+
+          <h2>Non-Refundable Items</h2>
+          <p>Unfortunately, we cannot offer refunds for:</p>
+          <ul>
+            <li>Change of mind after the item is prepared or dispatched.</li>
+            <li>Incorrect orders due to customer error at checkout.</li>
+            <li>Delays caused by third-party delivery services once dispatched.</li>
+          </ul>
+
+          <h2>Refund Process</h2>
+          <p>If approved, your refund will be processed within 3-5 business days via the original payment
+            method.
+            We'll notify you via email once the refund has been initiated.</p>
+
+          <h2>Need Help?</h2>
+          <p>If you have any questions or concerns, don’t hesitate to reach out to our team:</p>
+          <p><strong>Email:</strong> refunds@cafelastbean.com</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- Order Modal -->
+  <div id="orderModal" class="order-modal">
+    <div class="order-modal-content">
+      <div id="closeOrderModal" class="close-order">&times;</div>
+      <h2>☕ Place Your Order</h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST" id="orderForm" class="order-form">
+        <input type="hidden" name="access_key" value="82147f97-e558-44c9-90cf-fbcf2d0cca3d">
+        <input type="hidden" name="form_type" value="Order Form" />
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="coffeeType">Coffee Type</label>
+          <select name="coffeeType" id="coffeeType" required>
+            <option value="" disabled selected>Select Coffee Type</option>
+            <option value="Espresso">Espresso</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Latte">Latte</option>
+            <option value="Americano">Americano</option>
+            <option value="Mocha">Mocha</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" name="quantity" id="quantity" min="1" required />
+        </div>
+
+        <div class="form-group">
+          <label for="customization">Customization</label>
+          <textarea name="customization" id="customization" rows="3" placeholder="e.g. Extra hot, oat milk..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Order</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast notification to show form submitted succesfully -->
+  <div id="form-toast" class="form-toast hidden">
+    <span>✅ Form Submitted Successfully</span>
+  </div>
+
+
+
+  <!-- Linking Swiper script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking custom script -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
