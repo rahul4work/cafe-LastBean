@@ -47,8 +47,8 @@ To run this project locally, follow these simple steps:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/rahul4work/stepup.git
-cd stepup
+git clone https://github.com/rahul4work/cafe-LastBean.git
+cd cafe-LastBean
 ```
 
 
